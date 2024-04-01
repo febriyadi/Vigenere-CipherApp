@@ -187,5 +187,11 @@ namespace Vigenere_CipherApp
             }
             return extendedKey.ToString();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            string url = "https://github.com/febriyadi/Vigenere-CipherApp.git";
+            System.Diagnostics.Process.Start(url);
+        }
     }
 }
